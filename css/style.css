@@ -1,0 +1,68 @@
+ul {
+  list-style-type: none;
+  margin: 2;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 19px;
+  text-decoration: none;
+}
+
+#welcome-section{
+  height : 100vh;
+  text-align: center;
+  background-color:   #333;
+  align-items: center;
+  padding-top: 15%;
+  
+}
+#welcome-section h1{
+ color: white; 
+}
+#welcome-section h3{
+ color: #be3144;
+}
+#navbar{
+  position:fixed;
+  top:0px;
+  width:100%;
+  z-index:1;
+}
+
+.project-title{
+  width : 40%;
+font-size: 1.8rem;
+font-weight: 400;
+}
+
+#profile-link{
+  width:100px;
+  height: 18px;
+  align: center;
+  background-color:   #333;
+  margin-left: 50%;
+ 
+  
+}
+#profile-link a{
+  text-decoration: none;
+  color: white;
+}
+#footer{
+ 
+  text-align: center;
+  background-color:   #335;
+  align-items: center;
+  padding-top: 5%;
+  
+}
