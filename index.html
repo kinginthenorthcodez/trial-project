@@ -2,37 +2,46 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
   </head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <navbar id="navbar">
-  <ul>
+  <ul class="nav-flex">
     <li><a href="#welcome-section">About</a></li>
     <li><a href="#projects">Work</a></li>
     <li><a href="#profile-link">contact</a></li>
   </ul>
 </navbar>
 <section id="welcome-section">
+  <div class="welcome-flex">
   <h1> Hey I am Walter and Isaac </h1>
-  <h3>a Web Developer</h3>
+  <h3>We're Web Developers</h3>
+</div>
 </section>
 <section id="projects">
-  <h2> <a href="#project">check out my projects </a> </h2>
-  <img class="project-title" id="project" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg">
-  <img class="project-title" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg">
-    <img class="project-title" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png">
-    <img class="project-title" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png">
-  <div id="profile-link">Show All</div>
+  <h2 class="call-out out"> <a href="#project">check out my projects </a> </h2>
+  <div class="projects-flex">
+   <img class="project-title" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg">
+   <img class="project-title" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg">
+   <img class="project-title" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png">
+   <img class="project-title" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png">
+  </div>
+  <div id="profile-link" class="call-out">Show All</div>
 </section>
 
 <footer id="profile-link">
-  <a href="www.google.com">Mygoogle</a>
-
+   <ul class="social-links">
+     <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i> Github </a></li>
+     <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+     <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+   </ul>
 </footer>
 <script  src="js/index.js"></script>
 </body>
