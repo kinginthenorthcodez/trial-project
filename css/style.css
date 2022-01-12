@@ -3,8 +3,9 @@
   list-style-type: none;
   text-decoration: none;
 }
+
 #navbar {
-  position: fixed; 
+  position: fixed;
   width: 100%;
   height: 50px;
   top: 0;
@@ -20,9 +21,28 @@
 
 .nav-flex {
   display: flex;
-  justify-content: flex-end; 
+  justify-content: flex-end;
   font-size: 24px;
   flex-wrap: wrap;
+}
+
+.out a {
+  padding-top: 24px;
+  text-decoration-line: underline;
+  color: #fff;
+}
+
+social-links a:hover {
+  background-color: #333;
+  color: aliceblue;
+}
+
+.out a:hover {
+  color: #f5f5dc;
+}
+
+#profile-link a {
+  text-decoration: none;
 }
 
 #navbar li a {
@@ -31,6 +51,7 @@
   text-align: center;
   padding: 16px 14px;
 }
+
 #welcome-section {
   background-color: #333;
   position: relative;
@@ -45,34 +66,35 @@
   justify-content: center;
   height: 600px;
 }
-#welcome-section h1{
- color: white; 
- font-size: 40px;
+
+#welcome-section h1 {
+  color: white;
+  font-size: 40px;
 }
-#welcome-section h3{
- color: #be3144;
- font-size: 30px;
+
+#welcome-section h3 {
+  color: #be3144;
+  font-size: 30px;
 }
 
 #projects {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   flex-grow: 1;
   align-items: center;
   justify-content: center;
 }
 
 .project-title {
-  width : 40%;
+  width: 40%;
   font-size: 1.8rem;
   font-weight: 400;
 }
 
 .call-out {
-  color: white;
+  color: #fff;
   font-size: 35px;
-  background-color: rgb(108, 108, 196);
+  background-color: #6c6cc4;
   width: 100%;
   height: 150px;
   align-self: center;
@@ -80,20 +102,11 @@
   padding: 10px;
   margin: 0 auto;
 }
-.out a {
-  padding-top: 24px;
-  text-decoration-line: underline;
-  color: white;
-}
-#profile-link a {
-  text-decoration: none;
-}
+
 .call-out:hover {
   color: aliceblue;
 }
-.out a:hover {
-  color: beige;
-}
+
 .social-links {
   display: flex;
   justify-content: center;
@@ -104,15 +117,10 @@
   gap: 10px;
   font-size: 30px;
 }
-.social-links a:hover {
-  background-color: #333;
-  color: aliceblue;
-}
 
-#footer{
-  background-color:   #335;
+#footer {
+  background-color: #335;
   align-items: center;
   padding-top: 5%;
   height: 500px;
 }
-  
