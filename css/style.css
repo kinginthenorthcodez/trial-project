@@ -32,7 +32,7 @@
   color: #fff;
 }
 
-social-links a:hover {
+.social-links a:hover {
   background-color: #333;
   color: aliceblue;
 }
