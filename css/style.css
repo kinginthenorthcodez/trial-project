@@ -1,68 +1,127 @@
-ul {
+* {
+  box-sizing: border-box;
   list-style-type: none;
-  margin: 2;
+  text-decoration: none;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  z-index: 1;
+  margin: 0 4px;
+}
+
+#navbar ul {
   padding: 0;
   overflow: hidden;
   background-color: red;
 }
 
-li {
-  float: right;
+.nav-flex {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 24px;
+  flex-wrap: wrap;
 }
 
-li a {
+.out a {
+  padding-top: 24px;
+  text-decoration-line: underline;
+  color: #fff;
+}
+
+.social-links a:hover {
+  background-color: #333;
+  color: aliceblue;
+}
+
+.out a:hover {
+  color: #f5f5dc;
+}
+
+#profile-link a {
+  text-decoration: none;
+}
+
+#navbar li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 16px 19px;
-  text-decoration: none;
+  padding: 16px 14px;
 }
 
-#welcome-section{
-  height : 100vh;
-  text-align: center;
-  background-color:   #333;
+#welcome-section {
+  background-color: #333;
+  position: relative;
+  width: 100%;
+  top: 10px;
+}
+
+.welcome-flex {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  padding-top: 15%;
-  
-}
-#welcome-section h1{
- color: white; 
-}
-#welcome-section h3{
- color: #be3144;
-}
-#navbar{
-  position:fixed;
-  top:0px;
-  width:100%;
-  z-index:1;
+  justify-content: center;
+  height: 600px;
 }
 
-.project-title{
-  width : 40%;
-font-size: 1.8rem;
-font-weight: 400;
-}
-
-#profile-link{
-  width:100px;
-  height: 18px;
-  align: center;
-  background-color:   #333;
-  margin-left: 50%;
- 
-  
-}
-#profile-link a{
-  text-decoration: none;
+#welcome-section h1 {
   color: white;
+  font-size: 40px;
 }
-#footer{
- 
+
+#welcome-section h3 {
+  color: #be3144;
+  font-size: 30px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-title {
+  width: 40%;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.call-out {
+  color: #fff;
+  font-size: 35px;
+  background-color: #6c6cc4;
+  width: 100%;
+  height: 150px;
+  align-self: center;
   text-align: center;
-  background-color:   #335;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.call-out:hover {
+  color: aliceblue;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 5px;
+  padding: 5px;
+  height: 300px;
+  gap: 10px;
+  font-size: 30px;
+}
+
+#footer {
+  background-color: #335;
   align-items: center;
   padding-top: 5%;
-  
+  height: 500px;
+  margin: 2px;
 }
