@@ -30,6 +30,7 @@
   padding-top: 24px;
   text-decoration-line: underline;
   color: #fff;
+  font-variant: small-caps;
 }
 
 .social-links a:hover {
