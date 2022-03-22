@@ -12,7 +12,7 @@ Additional description about the project and its features.
 
 -HTML
 -CSS
-
+-JS
 ## Authors
 
 👤 **Author1**

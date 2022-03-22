@@ -14,7 +14,7 @@
 }
 
 #navbar ul {
-  padding: 0;
+  padding: 5px;
   overflow: hidden;
   background-color: red;
 }
