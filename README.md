@@ -2,7 +2,7 @@
 
 # Portifolio project
 
-> One paragraph statement about the project.
+> This is a trial project
 
 ![screenshot](./app_screenshot.png)
 
@@ -12,7 +12,7 @@ Additional description about the project and its features.
 
 -HTML
 -CSS
-
+-JS
 ## Authors
 
 👤 **Author1**
@@ -23,7 +23,7 @@ Additional description about the project and its features.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/kinginthenorthcodez/trial-project/issues).
 
 ## Show your support
 
