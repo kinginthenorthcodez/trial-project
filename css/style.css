@@ -30,6 +30,7 @@
   padding-top: 24px;
   text-decoration-line: underline;
   color: #fff;
+  font-variant: small-caps;
 }
 
 .social-links a:hover {
@@ -128,4 +129,7 @@
   padding-top: 5%;
   height: 500px;
   margin: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
